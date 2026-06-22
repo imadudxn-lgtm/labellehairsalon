@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
-  "scripts": {
+ "scripts": {
     "dev": "vite --host",
-    "build": "vite build --config vite.config.ts client",
+    "build": "vite build client --config vite.config.ts",
     "start": "NODE_ENV=production node dist/index.js",
     "preview": "vite preview --host",
     "check": "tsc --noEmit",
